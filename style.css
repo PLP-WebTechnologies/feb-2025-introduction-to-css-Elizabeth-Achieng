@@ -1,0 +1,51 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    
+}
+
+body{
+    
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+h3{
+    font-style: oblique;
+    text-align: center;
+}
+
+
+.image-container >img{
+
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 20px;
+    
+}
+
+
+.menu-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer{
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.menu-card > li {
+    flex: 1;
+}
